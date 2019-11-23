@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="google-site-verification" content="">
+	<meta name="keywords"    content="">
+    <meta name="description" content="Kaimarketi">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>kai martketi</title>
+	<link rel="stylesheet" type="text/css" href="plugin/swiper-slider/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="plugin/bootstrap-4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="plugin/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="container">
+				<div class="row align-items-center header-block">
+					<div class="col-md-4 col-sm-5 col-5 header-left">
+						<a href="index.html">
+							<img src="img/logo.png" alt="Kaimarketi">
+						</a>
+					</div>
+					<div class="col-md-8 col-sm-7 col-7 header-right">
+						<div class="navigation d-flex align-items-center justify-content-end">
+							<a href="about-us.html" class="nav-a">ჩვენ შესახებ</a>
+							<a href="#" class="nav-a">სერვისები</a>
+							<a href="#" class="nav-a">მაღაზიები</a>
+							<a href="#" class="nav-a">კონტაქტი</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-12">
+					<div class="banner-block">
+						<a href="#" class="banner-a">
+							<img src="img/banner.jpg" alt="baner">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-12">
+					<div class="search-block d-flex align-items-center justify-content-center">
+						<form class="form d-flex">
+							<input type="text" placeholder="საძიებო სიტყვა..." class="search">
+							<button type="button" class="button">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-4 left left-block">
+					<div class="slider-block">
+						<div class="swiper-container gallery-top">
+						    <div class="swiper-wrapper">
+							    <div class="swiper-slide">
+								    <div class="img-slide column">
+								      	<img src="img/pic1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+								    </div>
+							    </div>
+							    <div class="swiper-slide">
+								    <div class="img-slide column">
+								      	<img src="img/pic2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+								    </div>
+							    </div>
+							    <div class="swiper-slide">
+							      	<div class="img-slide column">
+							      		<img src="img/pic3.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+							      	</div>
+							    </div>
+						      	<div class="swiper-slide" >
+							      	<div class="img-slide column">
+							      		<img src="img/pic4.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+							      	</div>
+						      	</div>
+						  	</div>
+						</div>
+						<div class="swiper-container gallery-thumbs">
+						    <div class="swiper-wrapper">
+							    <div class="swiper-slide">
+								    <div class="img-slide img-thumbs">
+							      		<img src="img/pic1.jpg">
+							      	</div>
+							    </div>
+							    <div class="swiper-slide">
+							      	<div class="img-slide img-thumbs">
+								      	<img src="img/pic2.jpg">
+								    </div>
+							    </div>
+							    <div class="swiper-slide">
+							      	<div class="img-slide img-thumbs">
+								      	<img src="img/pic3.jpg">
+								    </div>
+							    </div>
+							    <div class="swiper-slide">
+							      	<div class="img-slide img-thumbs">
+								      	<img src="img/pic4.jpg">
+								    </div>
+							    </div>
+						  	</div>
+						    <div class="swiper-button-next swiper-button-white thumbs">
+						    	<i class="fas fa-chevron-right"></i>
+						    </div>
+						    <div class="swiper-button-prev swiper-button-white thumbs">
+						    	<i class="fas fa-chevron-left"></i>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-5 col-5 middle d-flex flex-wrap">
+					<div class="desc-block">
+						<h2 class="view-title">რუმინული მისაღები ოთახის გარნიტურები</h2>
+						<div class="view-price">
+							<span class="product-price">10 000 ₾</span>
+						</div>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary first-primary" data-toggle="modal" data-target="#exampleModal" data-backdrop="static" data-keyboard="false">ყიდვა</button>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  							<div class="modal-dialog" role="document">
+    							<div class="modal-content second-modal">
+      								<div class="modal-header">
+        								<h5 class="modal-title" id="exampleModalLabel">პერსონალური ინფორმაცია</h5>
+        								<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          									<span aria-hidden="true">&times;</span>
+        								</button>
+      								</div>
+      								<div class="modal-body">
+								        <div class="form-group">
+								        	<label for="name">სახელი</label>
+								        	<input type="text" name="name" class="form-control" required>
+								        </div>
+								        <div class="form-group">
+								        	<label for="surname">გვარი</label>
+								        	<input type="text" name="name" class="form-control" required>
+								        </div>
+								        <div class="form-group">
+								        	<label for="phone">ტელეფონის ნომერი</label>
+								        	<input type="text" name="name" class="form-control" required>
+								        </div>
+								        <div class="form-group">
+								        	<label for="email">Email</label>
+								        	<input type="text" name="name" class="form-control" required>
+								        </div>
+								    </div>
+							      	<div class="modal-footer">
+							        	<button type="button" class="btn btn-secondary last-btn" data-dismiss="modal">დახურვა</button>
+							        	<button type="button" class="btn btn-primary modal-btn last-btn">გადახდა</button>
+							      	</div>
+    							</div>
+  							</div>
+						</div>
+						<div class="view-desc">
+							<p class="view-p">ახალი კოლექცია!!!</p>
+							<p class="view-p">საზაფხულო აქცია!!!</p>
+							<p class="view-p">მასიური ხის რუმინული ახალი სასადილო და საძინებელი გარნიტურები.შესაძლებელია შეკვეთით ჩამოტანა ფაბრიკებიდან...</p>
+							<p class="view-p">ასეთი მაღალი ხარისხის პროდუქცია და მომსახურება მხოლოდ ჩვენთანაა...</p>
+							<p class="view-p">გვესტუმრეთ და დარწმუნდით...</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-3 right">
+					<div class="news-block text-center">
+						<a href="#">
+							<h2 class="news-h">სიახლეები</h2>
+						</a>
+						<div class="promotion">
+							<a href="#" class="promotion-a">
+								<img src="img/reklama1.png">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div id="myModal" class="modal">
+		  			<span class="close cursor" onclick="closeModal()">&times;</span>
+		  			<div class="modal-content">
+					    <div class="mySlides">
+					      <img src="img/pic1.jpg" style="width:100%">
+					    </div>
+					    <div class="mySlides">
+					      <img src="img/pic2.jpg" style="width:100%">
+					    </div>
+					    <div class="mySlides">
+					      <img src="img/pic3.jpg" style="width:100%">
+					    </div>
+					    <div class="mySlides">
+					      <img src="img/pic4.jpg" style="width:100%">
+					    </div>
+					    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footer-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-12">
+						<div class="social-icon d-flex
+						justify-content-center">
+							<a href="#" class="social fb">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="#" class="social google">
+								<i class="fab fa-google-plus-g"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="plugin/swiper-slider/js/swiper.min.js"></script>
+	<script src="plugin/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="plugin/bootstrap-4.0.0/js/popper.min.js"></script>
+	<script src="plugin/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+	<script>
+	    var galleryThumbs = new Swiper('.gallery-thumbs', {
+	      spaceBetween: 20,
+	      slidesPerView: 3,
+	      freeMode: true,
+	      watchSlidesVisibility: true,
+	      watchSlidesProgress: true,
+	      	navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	      },
+	      breakpoints: {
+	      	991: {
+	      		spaceBetween: 20,
+	      		slidesPerView: 3,
+	      	},
+	      	767: {
+	      		spaceBetween: 15,
+	      		slidesPerView: 2,
+	      	},
+	      	500: {
+	      		spaceBetween: 20,
+	      		slidesPerView: 1,
+	      	},
+	      }
+	    });
+	    var galleryTop = new Swiper('.gallery-top', {
+	      spaceBetween: 10,
+	      thumbs: {
+	        swiper: galleryThumbs
+	      },
+		});
+	</script>
+	<script>
+		function openModal() {
+		  document.getElementById("myModal").style.display = "block";
+		}
+
+		function closeModal() {
+		  document.getElementById("myModal").style.display = "none";
+		}
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";
+		  }
+	
+		  slides[slideIndex-1].style.display = "block";
+		}
+	</script>
+</body>
+</html>

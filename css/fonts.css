@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'BPG Mrgvlovani Caps 2010';
+    src: url('../fonts/BPGMrgvlovaniCaps2010.eot');
+    src: url('../fonts/BPGMrgvlovaniCaps2010.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGMrgvlovaniCaps2010.woff2') format('woff2'),
+        url('../fonts/BPGMrgvlovaniCaps2010.woff') format('woff'),
+        url('../fonts/BPGMrgvlovaniCaps2010.ttf') format('truetype'),
+        url('../fonts/BPGMrgvlovaniCaps2010.svg#BPGMrgvlovaniCaps2010') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BPG Mrgvlovani';
+    src: url('../fonts/BPGMrgvlovani.eot');
+    src: url('../fonts/BPGMrgvlovani.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGMrgvlovani.woff2') format('woff2'),
+        url('../fonts/BPGMrgvlovani.woff') format('woff'),
+        url('../fonts/BPGMrgvlovani.ttf') format('truetype'),
+        url('../fonts/BPGMrgvlovani.svg#BPGMrgvlovani') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

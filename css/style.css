@@ -1,0 +1,428 @@
+.header{
+	background-color: #f6f6f6;
+}
+.container{
+	width: 1200px;
+	margin:auto;
+}
+.header-block{
+	height: 70px;
+}
+.header-right{
+	text-align: end;
+}
+.nav-a{
+	color: #000;
+	font-size: 13px;
+	margin-left: 20px;
+	font-family: 'BPG Mrgvlovani Caps 2010';
+}
+.nav-a:hover{
+	color: #f29d09;
+	transition: 0.15s;
+}
+main{
+	padding-bottom: 100px;
+	min-height: calc(100vh - 150px);
+}
+.banner-block img{
+	width: 100%;
+	height: auto;
+}
+.search-block{
+	background-color: rgb(242, 242, 242);
+	margin-bottom: 2px;
+}
+.form{
+	height: 30px;
+	margin: 5px 0;
+}
+.search{
+	width: 300px;
+	font-size: 12px;
+	font-family: 'BPG Mrgvlovani';
+	padding-left: 5px;
+}
+.search,.button{
+	border:1px solid #F26C4F;
+}
+.button{
+	width: 40px;
+	cursor: pointer;
+	background-color: #F26C4F;
+}
+.button i{
+	color: #fff;
+}
+.title{
+	background-color: #F26C4F;
+	font-size: 14px!important;
+	text-align: center;
+}
+.left-li{
+	border:1px solid ;
+	border-color: rgb(234,234,234);
+	padding:8px ;
+}
+.left-li:nth-of-type(even){
+	background-color: rgb(248, 248, 238);
+}
+.left-li:hover{
+	border-color: #f29d09;
+}
+.left-li:hover:first-child{
+	border: 1px solid #F26C4F;
+}
+.left-a{
+	color: #000;
+	font-size: 12px;
+	font-family: 'BPG Mrgvlovani';
+}
+.first-middle{
+	padding-top: 5px;
+	border: 1px solid #e0e0e0;
+	height: fit-content;
+}
+.adv-img{
+	height: 100px;
+}
+.adv-img img{
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+.product{
+	margin-bottom: 10px;
+}
+.product-h{
+	color: #6d6d6d;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: 'BPG Mrgvlovani Caps 2010';
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-top: 10px;
+}
+.price{
+	color: #E17400;
+	font-size: 12px;
+	font-family: 'BPG Mrgvlovani';
+}
+.news-h{
+	color: #000;
+	font-size: 16px;
+	font-family: 'BPG Mrgvlovani';
+	background-color: #F26C4F;
+	border:1px solid #F26C4F;
+	padding: 8px;
+}
+.promotion{
+	margin: 5px 0;
+}
+.promotion-a img{
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.slider-block{
+	padding: 10px;
+	border: 1px solid #e0e0e0;
+	height: fit-content;
+}
+.img-slide img{
+	width: 100%;
+	height: 235px;
+	object-fit: cover;
+    object-position: center;
+}
+.view-title{
+	color: #333;
+	font-size: 15px;
+	font-family: 'BPG Mrgvlovani Caps 2010';
+	font-weight: 700;
+	border-bottom: 1px dotted #C1C1C1;
+	padding: 10px;
+}
+.view-price{
+	margin-top: 10px;
+}
+.product-price{
+	color: #ff8400;
+	font-size: 40px;
+	font-family: 'BPG Mrgvlovani Caps 2010';
+}
+.first-primary{
+	color: #fff;
+	font-size: 15px;
+	font-family: 'BPG Mrgvlovani Caps 2010';
+	background-color: #ff8400;
+	border: 1px solid #ff8400;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 3px;
+}
+.btn-primary:focus{
+	box-shadow: none;
+}
+.last-modal{
+
+}
+/*<!--slider-->*/
+ .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{
+	content: '';
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after{
+	content: '';
+}
+.gallery-thumbs{
+	margin-top: 10px;
+}
+.thumbs{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color:#fcae26;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.thumbs i{
+	font-size: 14px;
+}
+.swiper-button-prev.swiper-button-disabled{
+	opacity: 0.8;
+}
+.img-thumbs img{
+	height: 100px;
+}
+/*lightbox*/
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,.9);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+.mySlides img{
+	max-height: 400px;
+	object-fit: cover;
+	object-position: center;
+}
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white!important;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #fcae26;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+/*end lightbox*/
+.view-desc{
+	background-color: #f9f9f9;
+	padding: 10px;
+	margin-top: 20px;
+}
+.view-p{
+	margin: 14px 0;
+	font-size: 11px;
+	font-family: 'BPG Mrgvlovani';
+	line-height: 2;
+}
+.view-p:first-child{
+	margin:0;
+}
+.view-p:last-child{
+	margin-bottom: 0;
+}
+/*<!--modal popup-->*/
+.second-modal{
+	width: 100%;
+}
+.modal-backdrop.show{
+	opacity: 0;
+}
+.first-primary:hover{
+	color: #ff8400;
+	border: 1px solid #ff8400;
+	background-color: transparent;
+}
+.modal-title{
+	font-size: 16px;
+	color: #444;
+	font-family: 'BPG Mrgvlovani';
+}
+.btn-close{
+	font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    background: none;
+    border: none;
+    outline: none!important;
+}
+.btn-close:hover{
+	color: #000;
+    text-decoration: none;
+    opacity: .75;
+}
+.form-group{
+	display: flex;
+	flex-direction: column;
+}
+.form-group label{
+	margin-bottom: 3px;
+	font-size: 13px;
+	font-family: 'BPG Mrgvlovani';
+}
+.form-control{
+	height: 32px;
+	color: #555;
+	font-size: 14px;
+	font-family: 'BPG Mrgvlovani';
+	padding: 6px 12px;
+	background-color: #fff;
+	border-radius: 4px;
+
+}
+.form-control:focus{
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+	border: #66afe9;
+}
+.modal-btn{
+	border: 1px solid #ff8400;
+	background-color: #ff8400;
+}
+.modal-btn:hover{
+	background: #ff8400;
+	border: 1px solid #ff8400;
+}
+.last-btn{
+	font-size: 13px;
+	font-family: 'BPG Mrgvlovani';
+}
+.footer-block{
+	background-color: #f6f6f6;
+}
+.social-icon{
+	margin:20px 0;
+}
+.social{
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+	border:1px solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+.social:first-child{
+	margin: 0 ;
+}
+.fb{
+	background-color: #415e9b;
+	border-color: #415e9b;
+}
+.fb i{
+	color: #fff;
+}
+.google{
+	background-color: #dd4b39;
+	border-color: #dd4b39;
+}
+.google i{
+	color: #fff;
+}
+.about{
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0px 10px 10px -6px rgba(204,204,204,1);
+}
+.about-us{
+	margin-top: 20px;
+}
+.about-h{
+	font-size: 20px;
+	color: #FF9400;
+	font-weight: bold;
+	font-family: 'BPG Mrgvlovani';
+}
+.about-p{
+	color: #808080;
+	font-size: 14px;
+	font-family: 'BPG Mrgvlovani';
+	margin: 10px 0 40px;
+	line-height: 1.5;
+}
